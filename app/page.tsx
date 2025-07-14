@@ -55,7 +55,11 @@ export default function Home() {
   }
 
   return (
-    <div className="flex items-center justify-center flex-col p-4">
+    <div className="flex items-center justify-center flex-col p-4 space-y-2">
+      <div className="w-full md:w-lg flex items-center justify-between">
+        <h1 className="text-4xl">Todo</h1>
+        <p className="text-xl">What&apos; up!</p>
+      </div>
       <div className="flex w-full space-x-2 mb-4 md:w-lg">
         <Input
           placeholder="Task"
